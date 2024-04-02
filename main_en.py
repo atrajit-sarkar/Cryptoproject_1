@@ -1,4 +1,4 @@
-from project3.encrypt import encrypt
+from Harrycipher.encrypt import encrypt
 
 key=input("Enter your 6 digit key: ")
 

@@ -1,5 +1,5 @@
-from project3.coverstion import conv
-from project3.swap import swap
+from Harrycipher.coverstion import conv
+from Harrycipher.swap import swap
 # we put messege as list and key as string
 def decrypt(message,key):
   '''
