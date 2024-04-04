@@ -8,9 +8,9 @@ def encrypt(message,key):
   lis=list(message)
   for i in range(len(lis)):
     if get_key(lis[i]) is not None:
-     en.append(dict[(int(key[0]) * get_key(lis[i]) + int(key[1])) % 40])
+     en.append(dict[(int(key[0]) * get_key(lis[i]) + int(key[1])) % 41])
     else:
       print("Error occured")
   
-  return conv(en)
+  return conv(en).capitalize()
   

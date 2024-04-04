@@ -6,7 +6,7 @@ def decryption(message,key):
   str=""
   for i in message:             
     x=get_key(i)
-    x=(a*x-a*int(key[1]))%40
+    x=(a*x-a*int(key[1]))%41
     str=str+dict[x]
     
-  return str
+  return str.capitalize()
