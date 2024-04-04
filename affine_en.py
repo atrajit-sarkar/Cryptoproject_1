@@ -3,7 +3,7 @@ from Affinecipher.gcd import gcd
 alp="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 num="0123456789"
 special=" ,.?!"
-print("Only use characters in the following list: ",list(alp),list(num),list(special),"forget about case sensitiveness")
+print("Only use characters in the following list: ","\n", list(alp),'\n', list(num),'\n', list(special),'\n',"forget about case sensitiveness")
 message=input("Enter the encrypted message: ")
 message=message.upper()
 for i in message:
