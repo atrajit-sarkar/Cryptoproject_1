@@ -5,3 +5,5 @@ def get_key(val):
   for key, value in item:
     if val == value:
       return key
+
+  return 0

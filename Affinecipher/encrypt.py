@@ -4,6 +4,7 @@ from Harrycipher.coverstion import conv
 def encrypt(message,key):
   en=[]
   key=list(key)
+  message=message.upper()
   lis=list(message)
   for i in range(len(lis)):
     if get_key(lis[i]) is not None:
